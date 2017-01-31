@@ -1,0 +1,51 @@
+html{
+  height:100%;
+}
+body{
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position:relative;
+  height: 100%;
+}
+.container {
+  background-color: black;
+}
+
+
+
+.footer {
+  left:15%;
+  width:70%;
+  position: absolute;
+  bottom:10%;
+  background-color: orange;
+  text-align: center;
+}
+
+.nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; 
+        height:100px;
+        }
+
+  a {
+    color: #00B7FF;
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+    line-height: 600%;
+  }
+}
+
+.brand-statement {
+ width:300px;
+ margin:0 auto;
+ background-color: rgba(0,0,0,.1);
+ font-size:20px;
+ padding:10px;
+}
+
