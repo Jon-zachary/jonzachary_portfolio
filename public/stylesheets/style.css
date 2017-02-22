@@ -1,41 +1,25 @@
-html {
-  height: 100%; }
+nav {
+  background-color: #2f5681 !important;
+  font-family: "Stint Ultra Expanded", cursive !important;
+  height: 100px !important;
+  line-height: 100px !important; }
 
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  position: relative;
-  height: 100%; }
-
-.container {
-  background-color: black; }
-
-.footer {
-  left: 15%;
-  width: 70%;
-  position: absolute;
-  bottom: 10%;
-  background-color: orange;
+  background: url(/images/background1.png);
   text-align: center; }
 
-.nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-.nav li {
+.main {
+  opacity: 0.9; }
+
+.spiel {
+  font-family: "PT Sans", sans-serif !important;
   display: inline-block;
-  height: 100px; }
-.nav a {
-  color: #00B7FF;
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-  line-height: 600%; }
+  margin-bottom: 20px; }
 
-.brand-statement {
-  width: 300px;
-  margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.1);
-  font-size: 20px;
-  padding: 10px; }
+.side-nav {
+  background-color: #2f5681 !important; }
 
+img{
+  height:200px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -7,9 +7,35 @@
 </head>
 <body>
 	<% include partials/header.ejs %>
-	<h1>BookNote</h1>
-	<h2>The note taking app of the future with an eye on the past</h2>
-	<a href="https://github.com/Jon-zachary/BookNote">See it here!</a>
-	<% include partials/footer.ejs %>
+	<div></div>
+	<div class="row">
+		<div class="col s2">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/booknote.png">
+            </div>
+            <div class="card-content">
+              <p>BookNote is a note taking application that allows you to save notes by page. Made with react and firebase.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://jon-zachary.github.io/BookNote/">See BookNote here!</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s2">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/colorkiss.png">
+            </div>
+            <div class="card-content">
+              <p>ColoKiss is  a colorful browser based game that pits you against the timer. Made with Javascript, HTML and CSS</p>
+            </div>
+            <div class="card-action">
+              <a href="https://jon-zachary.github.io/project1GA/">Play now!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	<% include partials/scripts.ejs %>
 </body>
 </html>

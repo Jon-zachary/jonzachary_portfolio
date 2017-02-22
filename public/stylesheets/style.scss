@@ -1,51 +1,28 @@
-html{
-  height:100%;
-}
-body{
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  position:relative;
-  height: 100%;
-}
-.container {
-  background-color: black;
+$blue-note: rgb(47, 86, 129);
+$name-font: 'Stint Ultra Expanded', cursive;
+$text-font: 'PT Sans', sans-serif;
+nav {
+  background-color: $blue-note !important;
+  font-family: $name-font !important;
+  height: 100px !important ;
+  line-height: 100px !important;
 }
 
-
-
-.footer {
-  left:15%;
-  width:70%;
-  position: absolute;
-  bottom:10%;
-  background-color: orange;
+body {
+  background: url(/images/background1.png); 
   text-align: center;
 }
 
-.nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  li { display: inline-block; 
-        height:100px;
-        }
-
-  a {
-    color: #00B7FF;
-    display: block;
-    padding: 6px 12px;
-    text-decoration: none;
-    line-height: 600%;
-  }
+.main {
+  opacity: .9
 }
 
-.brand-statement {
- width:300px;
- margin:0 auto;
- background-color: rgba(0,0,0,.1);
- font-size:20px;
- padding:10px;
-}
+.spiel{
+  font-family: $text-font !important;
+  display: inline-block;
+  margin-bottom: 20px;
+} 
 
+.side-nav{
+  background-color: $blue-note !important;
+}
