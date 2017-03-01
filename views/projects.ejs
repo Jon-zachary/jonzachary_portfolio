@@ -9,7 +9,7 @@
 	<% include partials/header.ejs %>
 	<div></div>
 	<div class="row">
-		<div class="col s2">
+		<div class="col s12 m3">
           <div class="card">
             <div class="card-image">
               <img src="images/booknote.png">
@@ -18,11 +18,11 @@
               <p>BookNote is a note taking application that allows you to save notes by page. Made with react and firebase.</p>
             </div>
             <div class="card-action">
-              <a href="https://jon-zachary.github.io/BookNote/">See BookNote here!</a>
+              <a href="https://jon-zachary.github.io/BookNote/">Write a note!</a>
             </div>
           </div>
         </div>
-        <div class="col s2">
+        <div class="col s12 m3">
           <div class="card">
             <div class="card-image">
               <img src="images/colorkiss.png">
@@ -35,7 +35,21 @@
             </div>
           </div>
         </div>
+        <div class="col s12 m3">
+          <div class="card">
+            <div class="card-image">
+              <img src="images/travello.png">
+            </div>
+            <div class="card-content">
+              <p>Travello is an app designed to facilitate social trip planning.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://mighty-escarpment-11901.herokuapp.com/">Plan a trip!</a>
+            </div>
+          </div>
+        </div>
       </div>
 	<% include partials/scripts.ejs %>
+	<script>$(".button-collapse").sideNav();</script>
 </body>
 </html>

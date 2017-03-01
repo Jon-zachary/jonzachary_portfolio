@@ -1,6 +1,7 @@
 $blue-note: rgb(47, 86, 129);
 $name-font: 'Stint Ultra Expanded', cursive;
 $text-font: 'PT Sans', sans-serif;
+
 nav {
   background-color: $blue-note !important;
   font-family: $name-font !important;
@@ -26,3 +27,19 @@ body {
 .side-nav{
   background-color: $blue-note !important;
 }
+
+.welcome{
+  color: $blue-note;
+}
+
+.contact-header{
+  color: $blue-note;
+}
+
+.contact-form {
+  font-color: blue
+}
+
+.input-field  {
+     color: blue;
+   }

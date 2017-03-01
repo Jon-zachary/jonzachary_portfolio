@@ -19,7 +19,16 @@ body {
 .side-nav {
   background-color: #2f5681 !important; }
 
-img{
-  height:200px;
-}
+.welcome {
+  color: #2f5681; }
+
+.contact-header {
+  color: #2f5681; }
+
+.contact-form {
+  font-color: blue; }
+
+.input-field {
+  color: blue; }
+
 /*# sourceMappingURL=style.css.map */
