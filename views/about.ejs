@@ -4,14 +4,23 @@
 	<meta charset="UTF-8">
 	<title><%= title %></title>
 	<% include partials/head.ejs %>
+	<script>
+    $(function(){
+        $(".card-title").typed({
+            strings: ["<strong>$ whoami</strong>"],
+            typeSpeed: 60,
+            showCursor: false,
+        });
+    });
+</script>
 </head>
 <body>
 <% include partials/header.ejs %>
 <div class="row">
 	<div class="col s3">
 		<div class="main container">
-			<div class="card-panel pink lighten-3">
-				<h2 class="center card-title"><strong>$ whoami</strong></h2>
+			<div class="spiel-container">
+				<h2 class="center card-title"><strong></strong></h2>
 				<span id="spiel" class="flow-text spiel">Studying and teaching chess for the past two decades has honed my ability solve abstract problems and communicate those solutions clearly. I have wide ranging interests  from math to poetry and my ability to teach myself coupled with my intellectual curiosity has led me to strive to always be learning. I am excited to forge relationships based on exchanging knowledge and continuing to challenge myself in my new career.</span>
 				</div>
 		</div>

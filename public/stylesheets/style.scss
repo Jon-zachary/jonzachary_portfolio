@@ -19,10 +19,16 @@ body {
 }
 
 .spiel{
+  animation: about-fade-in 3s ;
   font-family: $text-font !important;
   display: inline-block;
   margin-bottom: 20px;
 } 
+
+.spiel-container{
+  background-color: $blue-note;
+  border-radius: 10px;
+}
 
 .side-nav{
   background-color: $blue-note !important;
@@ -43,3 +49,9 @@ body {
 .input-field  {
      color: blue;
    }
+
+@keyframes about-fade-in {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}

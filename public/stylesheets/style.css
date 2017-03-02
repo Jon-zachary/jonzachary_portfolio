@@ -12,9 +12,14 @@ body {
   opacity: 0.9; }
 
 .spiel {
+  animation: about-fade-in 3s;
   font-family: "PT Sans", sans-serif !important;
   display: inline-block;
   margin-bottom: 20px; }
+
+.spiel-container {
+  background-color: #2f5681;
+  border-radius: 10px; }
 
 .side-nav {
   background-color: #2f5681 !important; }
@@ -30,5 +35,13 @@ body {
 
 .input-field {
   color: blue; }
+
+@keyframes about-fade-in {
+  0% {
+    opacity: 0; }
+  90% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 /*# sourceMappingURL=style.css.map */
