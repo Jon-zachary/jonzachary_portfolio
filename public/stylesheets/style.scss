@@ -48,17 +48,10 @@ a.brand-logo.center{
   color: $blue-note;
 }
 
-.contact-header{
-  color: $blue-note;
+.contact {
+  margin-left: 50%;
 }
 
-.contact-form {
-  font-color: blue
-}
-
-.input-field  {
-     color: blue;
-   }
 
 @keyframes about-fade-in {
   0%   { opacity: 0; }
