@@ -6,7 +6,16 @@ nav {
 
 body {
   background: url(/images/background1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: center; }
+
+img.book.circle {
+  height: 50vw;
+  border-radius: 100px; }
+
+a.brand-logo.center {
+  font-size: 60px; }
 
 .main {
   opacity: 0.9; }
@@ -43,5 +52,11 @@ body {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@media only screen and (max-width: 500px) {
+  body {
+    background-size: 200vw; }
+
+  a.brand-logo.center {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
