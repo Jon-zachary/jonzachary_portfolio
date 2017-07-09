@@ -1,6 +1,10 @@
+
 $blue-note: rgb(47, 86, 129);
+$lighter-blue-note: #4E739A;
 $name-font: 'Stint Ultra Expanded', cursive;
 $text-font: 'PT Sans', sans-serif;
+$important-white: white !important;
+
 
 nav {
   background-color: $blue-note !important;
@@ -15,6 +19,7 @@ body {
   background-size:cover;
   text-align: center;
 }
+
  
 img.book.circle {
   height:50vw;
@@ -48,16 +53,28 @@ a.brand-logo.center{
   color: $blue-note;
 }
 
-.contact {
-  margin-left: 50%;
+.contact-header{
+  background-color: $lighter-blue-note;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 
-@keyframes about-fade-in {
-  0%   { opacity: 0; }
-  90%  { opacity: 0; }
-  100% { opacity: 1; }
+div.row {
+ width: 425px;
 }
+
+form.contact-form {
+  color: white !important;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: .4%;
+  background-color: $lighter-blue-note;
+}
+
+
+   
 
 @media only screen and (max-width: 500px) {
     body {

@@ -37,21 +37,21 @@ a.brand-logo.center {
   color: #2f5681; }
 
 .contact-header {
-  color: #2f5681; }
+  background-color: #4E739A;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 5px; }
 
-.contact-form {
-  font-color: blue; }
+div.row {
+  width: 425px; }
 
-.input-field {
-  color: blue; }
+form.contact-form {
+  color: white !important;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: .4%;
+  background-color: #4E739A; }
 
-@keyframes about-fade-in {
-  0% {
-    opacity: 0; }
-  90% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
 @media only screen and (max-width: 500px) {
   body {
     background-size: 200vw; }

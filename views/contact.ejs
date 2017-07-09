@@ -9,37 +9,36 @@
 	<% include partials/header.ejs %>
 	<div class="contact">
 	<h1 class="contact-header">GET IN TOUCH</h1>
-		<a href="https://github.com/Jon-zachary">Github</a>
+		<!-- <a href="https://github.com/Jon-zachary">Github</a>
 		<a href="https://www.linkedin.com/in/jon-zachary">Linkedin</a>
-		<a href="https://profiles.generalassemb.ly/profiles/7184/in-review">GA</a>
+		<a href="https://profiles.generalassemb.ly/profiles/7184/in-review">GA</a> -->
 	</div>
-	<div class="row">
-    <form class="col s12 m6 contact-form">
+  	<div class="row">
+    <form class="contact-form">
       <div class="row">
-        <div class="input-field col s6">
+        <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text" class="validate">
+          <input id="icon_prefix" type="text">
           <label for="icon_prefix">Name</label>
         </div>
-  </div>
-   <div class="row">
-        <div class="input-field col s6">
-         <i class="material-icons prefix">email</i>
-          <input id="icon_prefix" type="email" class="validate">
-          <label for="icon_prefix">Email</label>
-        </div>
+      </div>
+  <div class="row">
+      <div class="input-field col s12">
+        <i class="material-icons prefix">email</i>
+        <input id="icon_prefix" type="email">
+        <label for="icon_prefix">Email</label>
+      </div>
   </div>
       <div class="row">
-        <div class="input-field col s6">
-        <i class="material-icons prefix">edit_mode</i>
-        <textarea id="textarea1" class="materialize-textarea"></textarea>
-        <label for="textarea1">Message</label>
+        <div class="input-field col s12">
+          <i class="material-icons prefix">edit_mode</i>
+          <textarea id="textarea1" type="textarea" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
         </div>
       </div>
-    
-  </div>
-      </div>
-      </div>
+      <button class="btn waves-effect waves-light blue" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </button>
     </form>
   </div>
 	<% include partials/scripts.ejs %>
