@@ -14,25 +14,25 @@
 		<a href="https://profiles.generalassemb.ly/profiles/7184/in-review">GA</a> -->
 	</div>
   	<div class="row">
-    <form class="contact-form">
+    <form class="contact-form" action="/contact/sendMail" method="post">
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">account_circle</i>
-          <input id="icon_prefix" type="text">
+          <input id="icon_prefix" type="text" name="name">
           <label for="icon_prefix">Name</label>
         </div>
       </div>
   <div class="row">
       <div class="input-field col s12">
         <i class="material-icons prefix">email</i>
-        <input id="icon_prefix" type="email">
+        <input id="icon_prefix" type="email" name="email">
         <label for="icon_prefix">Email</label>
       </div>
   </div>
       <div class="row">
         <div class="input-field col s12">
           <i class="material-icons prefix">edit_mode</i>
-          <textarea id="textarea1" type="textarea" class="materialize-textarea"></textarea>
+          <textarea id="textarea1" type="textarea" class="materialize-textarea" name="message"></textarea>
           <label for="textarea1">Message</label>
         </div>
       </div>

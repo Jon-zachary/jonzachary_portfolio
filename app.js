@@ -9,8 +9,9 @@ var index = require('./routes/index');
 var contact = require('./routes/contact.js');
 var about = require('./routes/about.js');
 var projects = require('./routes/projects.js');
-
 var app = express();
+
+require('dotenv').config();
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
